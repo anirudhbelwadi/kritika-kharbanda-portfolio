@@ -1,0 +1,118 @@
+body, html {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+* {
+    font-family: 'Epilogue', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.nav-item {
+    font-size: 15px;
+}
+
+.navbar-collapse {
+    padding-right: 30px;
+}
+
+.bottom_navbar {
+    max-height: 10vh;
+}
+
+.nav_bar {
+    max-height: 10vh;
+}
+
+header {
+    max-height: 90vh;
+}
+
+.header_row {
+    max-height: 90vh;
+    height: 90vh;
+}
+
+footer {
+    max-height: 10vh;
+}
+
+.computation_image {
+    position: relative;
+}
+
+.architecture_image {
+    position: relative;
+}
+
+.col-md-3 {
+    overflow: hidden;
+}
+
+.architecture_text {
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        max-height: 50vh !important;
+    }
+
+    .header_row {
+        max-height: 50vh;
+        height: 50vh;
+    }
+
+    .image_section {
+        height: 50%;
+    }
+
+    .computation_image {
+        width: auto !important;
+        height: 100%;
+    }
+
+    .architecture_image {
+        width: auto !important;
+        height: 100%;
+    }
+
+    .row {
+        text-align: center !important;
+    }
+
+    .architecture_text {
+        text-align: center !important;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+.body_text_1 {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.body_text_2 {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}

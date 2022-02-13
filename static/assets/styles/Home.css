@@ -1,0 +1,274 @@
+body, html {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.container-fluid {
+  padding: 30px;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.nav-item {
+  font-size: 15px;
+}
+
+.navbar-collapse {
+  padding-right: 30px;
+}
+
+header {
+  height: 1200px;
+  width: 100%;
+  display: flex;
+}
+
+.left_header {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.right_header {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.child_1 {
+  width: 50%;
+  position: relative;
+}
+
+.child_2 {
+  width: 50%;
+  position: relative;
+}
+
+/*Designing for 1920×1080*/
+
+.left_header_image {
+  position: absolute;
+  right: -290px;
+  top: calc(50% - 260px);
+}
+
+.right_header_image {
+  position: absolute;
+  left: -290px;
+  top: calc(50% - 260px);
+}
+
+.child_1_text {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.child_2_text {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.left_header_hover {
+  transition: 0.5s;
+}
+
+.right_header_hover {
+  transition: 0.5s;
+}
+
+.body_text_1 {
+  font-size: 12px;
+  color: rgb(32, 32, 32);
+  font-weight: 300;
+}
+
+.body_text_2 {
+  font-size: 10px;
+  color: rgb(105, 105, 105);
+}
+
+.bottom_navbar {
+  max-height: 10vh;
+}
+
+@media screen and (max-width: 1440px) {
+  .child_2_text, .child_1_text {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .child_2_text, .child_1_text {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .child_2_text, .child_1_text {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .child_2_text, .child_1_text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .child_2_text, .child_1_text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .left_header_image {
+    height: 480px;
+    right: -255px;
+    top: calc(50% - 240px);
+  }
+
+  .right_header_image {
+    height: 480px;
+    left: -255px;
+    top: calc(50% - 240px);
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .left_header_image {
+    height: 420px;
+    right: -225px;
+    top: calc(50% - 210px);
+  }
+
+  .right_header_image {
+    height: 420px;
+    left: -225px;
+    top: calc(50% - 210px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .left_header_image {
+    height: 370px;
+    right: -195px;
+    top: calc(50% - 185px);
+  }
+
+  .right_header_image {
+    height: 370px;
+    left: -195px;
+    top: calc(50% - 185px);
+  }
+}
+
+@media screen and (max-width: 847px) {
+  .left_header_image {
+    height: 340px;
+    right: -175px;
+    top: calc(50% - 170px);
+  }
+
+  .right_header_image {
+    height: 340px;
+    left: -175px;
+    top: calc(50% - 170px);
+  }
+
+  .child_2_text, .child_1_text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .left_header_image {
+    height: 300px;
+    right: -155px;
+    top: calc(50% - 150px);
+  }
+
+  .right_header_image {
+    height: 300px;
+    left: -155px;
+    top: calc(50% - 150px);
+  }
+
+  .child_2_text, .child_1_text {
+    font-size: 18px;
+  }
+
+  .child_1 {
+    padding-left: 15px !important;
+  }
+
+  .child_2 {
+    padding-right: 15px !important;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .left_header_image {
+    height: 260px;
+    right: -135px;
+    top: calc(50% - 130px);
+  }
+
+  .right_header_image {
+    height: 260px;
+    left: -135px;
+    top: calc(50% - 130px);
+  }
+
+  .child_2_text, .child_1_text {
+    font-size: 16px;
+  }
+
+  .child_1 {
+    padding-left: 8px !important;
+  }
+
+  .child_2 {
+    padding-right: 8px !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .left_header_image {
+    height: 220px;
+    right: -115px;
+    top: calc(50% - 110px);
+  }
+
+  .right_header_image {
+    height: 220px;
+    left: -115px;
+    top: calc(50% - 110px);
+  }
+
+  .child_2_text, .child_1_text {
+    font-size: 14px;
+  }
+
+  .child_1 {
+    padding-left: 8px !important;
+  }
+
+  .child_2 {
+    padding-right: 8px !important;
+  }
+}
